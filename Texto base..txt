@@ -1,0 +1,229 @@
+Sobre a Barbearia Alura
+
+Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.
+
+Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".
+
+Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+
+
+Existe diferença entre as tags do HTML?
+Sim, cada tag tem uma responsabilidade e um significado
+
+
+Para termos uma frase com este resultado final:
+
+Frase de exemplo
+
+Como deve ser a marcação do nosso HTML?
+
+<strong>Frase de <em>exemplo</em></strong>
+
+
+
+
+Chegou a hora de você pôr em prática o que foi visto na aula. Para isso, execute os passos listados abaixo.
+
+1) Crie o arquivo index.html.
+
+2) Copie o conteúdo do texto base, que você baixou no início desta aula, para dentro do arquivo index.html.
+
+3) Marque o título do texto e os seus parágrafos, usando as tags HTML próprias para isso:
+
+<h1>Sobre a Barbearia Alura</h1>
+
+<p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. 
+Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+<p>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".</p>
+
+<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>COPIAR CÓDIGO
+4) Destaque algumas informações do texto, deixando-as em negrito. Da mesma forma, dê ênfase em alguns pontos do texto, deixando-os em itálico. Use as tags HTML próprias para isso:
+
+<h1>Sobre a Barbearia Alura</h1>
+
+<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+<p><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+
+
+
+
+Nesta aula, aprendemos:
+
+Uma introdução ao HTML e às suas tags
+Como definir o título e os parágrafos de um texto
+Utilizando as tags <h1> e <p>, respectivamente
+Como dar destaque para algumas informações do texto, deixando-as em negrito, utilizando a tag <strong>
+Como dar ênfase para algumas informações do texto, deixando-as em itálico, utilizando a tag <em>
+
+
+
+
+
+
+
+
+No último vídeo, conhecemos a tag DOCTYPE. Qual é a sua função?
+
+Passar informações para o navegador sobre qual versão do HTML estamos usando
+
+
+Alternativa correta! A tag DOCTYPE serve para informar ao navegador qual versão do HTML estamos usando.
+
+
+Porque é importante usarmos o charset="UTF-8"?
+
+Para que todos os usuários vejam o site com o dicionário correto
+
+
+Alternativa correta! É preciso apontar para o navegador que estamos usando um dicionário que tem acentos e cedilha.
+
+
+
+Qual a diferença de colocar informações no head e no body?
+
+
+O conteúdo fica no body e informações no head
+
+
+Alternativa correta! Na estrutura correta do HTML, inserimos as informações que queremos passar para o navegador no head e as tags de conteúdo no body.
+
+Qual a forma correta de separarmos a propriedade e o seu valor no CSS?
+
+Usando o caractere : (text-align: center)
+
+
+Alternativa correta! O caractere : serve para atribuir um valor a uma propriedade.
+
+Style=>pode ser coocado dentro do head>para criação de elementos .
+in-line entre as tags. 
+ 
+
+
+
+
+
+A maneira correta para declarar um CSS que pode ser usado em várias páginas diferentes é:
+
+
+
+
+Em um arquivo externo
+
+
+Alternativa correta! Só com um arquivo externo, e fazendo referência a esse arquivo, podemos usar o mesmo CSS em páginas diferentes.
+
+
+Como funciona o estilo em cascata do CSS?
+Tudo que eu adiciono no elemento pai reflete nos elementos filhos
+
+
+Alternativa correta! Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho.
+
+
+
+
+De que maneiras eu posso representar cores no CSS?
+
+
+Hexadecimal, RGB e com os nomes das cores
+
+
+Alternativa correta! Podemos representar a cor vermelha com o nome red, o hexadecimal #FF0000 e o RGB rgb(255,0,0).
+
+
+Como fazemos para adicionar uma imagem no nosso conteúdo?
+
+Alternativa correta
+<img src="endereço">
+
+Alternativa correta! A tag img tem a propriedade src, onde adicionamos o endereço.
+
+Formatos de cores
+bacdef
+binário
+numéricos 123456789abcdef
+hexadecimal 0123456789abcdef
+RGB = red green blue
+# -----
+0 = ausência
+F = máximo
+#000000
+#FFFFFF
+red
+blue
+yellow
+Rgb 0,1,2,3...255
+255 = máximo
+rgb(255,255,255)
+RgB(0,0,255)
+
+
+
+
+
+
+[00:00] Agora, queremos criar mais uma divisão no nosso site, uma separação entre as duas seções.
+
+[00:06] A primeira, onde teremos todo o texto de apresentação do nosso site, e a segunda, onde teremos os benefícios apresentados ao nosso cliente.
+
+[00:14] Para isso, realmente precisamos ter o conceito de uma divisão. Criar dois blocos de conteúdo e separá-los com tags de HTML.
+
+[00:25] Se formos ao nosso HTML, veremos que toda essa primeira parte, a partir do h1, e os quatro parágrafos, respondem a uma primeira seção, que poderíamos chamar de principal; e o h2 e nossa lista pertencem a uma segunda seção, que poderíamos chamar de Benefícios.
+
+[00:52] Para fazer isso, criamos a tag de divisão, a tag div. A primeira vai englobar o h1 e os três parágrafos, e aí vamos indentar isso para ficar correto. Uma dica: se você selecionar tudo com o mouse ou com o teclado e apertar tab uma vez, ele vai indentar tudo como um bloco para você.
+
+[01:25] Vamos fazer a mesma coisa nos benefícios. Criar outra divisão que fecha depois da nossa lista e indentar isso para ficar correto.
+
+[01:42] Temos então no nosso HTML duas divisões. Vamos entender como isso ficou visualmente no nosso navegador. Observando, não notamos diferença alguma.
+
+[01:52] As divisões têm por padrão não interferir na apresentação visual do nosso conteúdo. Elas servem para marcarmos nosso conteúdo, e, a partir do CSS fazermos os efeitos que quisermos. Mas como vamos marcar o conteúdo?
+
+[02:12] Temos duas tags com o mesmo nome. Para isso, precisamos de especificidade, precisamos ou criar um identificador, ou criar uma classe.
+
+[02:25] Já falamos a diferença dos dois. O identificador serve para itens únicos e a classe serve para itens que serão repetidos.
+
+[02:33] Como só temos esse conteúdo, sabemos que eles são únicos, mas se quisermos criar um layout robusto, com todas as técnicas, e quisermos replicar esse conteúdo no futuro, o ideal é criarmos classes. Vamos seguir esse padrão a partir de agora. Sempre que quisermos marcar um conteúdo visualmente, vamos criar uma classe para ele.
+
+[02:54] A classe que queremos criar é a dos benefícios, então vamos criar uma classe com o nome “benefícios”.
+
+[03:02] Se formos no CSS, a marcação de uma classe é um ponto e o nome dela. O que queremos aqui é que ele tenha um fundo branco, e um fundo branco, como vimos, é com a propriedade background.
+
+[03:27] Para fazer a cor branca, precisamos que todos os itens da nossa cor estejam no máximo, ou seja, todas as cores. Então, #FFFFFF.
+
+[03:41] Se recarregarmos, veremos que essa nossa divisão está perfeita no nosso conteúdo. Mas temos um problema. Ela está com fundo branco, mas o fundo da minha página inteira está cinza. Por que isso aconteceu?
+
+[04:00] Quando colocamos o fundo cinza, colocamos na tag do background, e não no nosso conteúdo de texto de apresentação. Portanto, vamos mudar isso a partir de agora.
+
+[04:13] Na nossa tag do conteúdo principal, vamos criar uma classe com o nome “principal”. Para esta tag, quando voltarmos no nosso HTML, lembrando que a estrutura do CSS deve ser correspondente à estrutura do HTML, logo abaixo do banner vamos criar a classe principal. E nela vamos recortar o fundo cinza do background e vamos colar no principal.
+
+[04:54] Agora, temos o site inteiro com o fundo branco e nosso espaço também com fundo branco.
+
+[05:05] Um problema que temos que resolver no nosso site é que temos um espaço branco indesejado entre a imagem e o nosso conteúdo principal, e um espaço branco indesejado na lateral do nosso site.
+
+[05:23] Isso foi o navegador que adicionou. Já vamos aprender a resolver.
+
+[05:29] No momento, temos nosso título de benefícios e nossa lista de itens. Vamos continuar estilizando-os.
+
+[05:38] Seguindo o padrão do bloco de cima, quero que o Benefícios seja centralizado. Para fazer isso, lembrando que no nosso HTML ele está com a tag h2, voltando no nosso CSS, vou criar um marcador para ele a partir da tag h2: text-align: center
+
+[06:06] Voltando na nossa página, já temos um título centralizado.
+
+[06:12] Por último, para completar esse bloco de conteúdo, precisamos adicionar mais uma imagem. Também já sabemos como fazer isso. Através da tag img.
+
+[06:25] Vamos criar a img e vamos colocar o source dela, a fonte, onde essa imagem está. Ela é nossa imagem beneficios.jpg, que está na pasta do projeto.
+
+[06:42] Quando voltarmos ao nosso navegador, a imagem está lá.
+
+[06:48] Reparem que ela está muito grande, ocupando a largura inteira da página. O ideal é que ela fique ocupando 50% da página do lado direito, ao lado dos itens da lista.
+
+[07:06] Na próxima aula, vamos entender como criar essa divisão e posicionar esses elementos do jeito que queremos.
+
+
